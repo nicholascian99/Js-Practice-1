@@ -208,7 +208,7 @@
 //         "my favorite": true
 //     },
 
-//     {
+//     { 
 //         "Species": "Treeko",
 //         "egg-group": "field",
 //         "evolution-stage": "1st",
@@ -242,3 +242,59 @@
 // let gloveBoxContents = myStorage.car.inside["glove box"];
 
 // console.log(gloveBoxContents)
+
+// ____________________________________________________
+
+//WHILE LOOPS
+// let myArray = [];
+
+// let i = 0
+
+// while(i < 5) {
+//     myArray.push(i);
+//     i++;
+// }
+// console.log(myArray);
+
+
+//   FOR LOOPS (USUALLY BEST PRACTICE)
+
+// let ourArray = [];
+
+// for (let i = 0; i < 5; i++) {
+//     ourArray.push(i);
+// }
+
+
+// let myArray = [];
+
+// for (let i = 1; i < 6; i++) {
+//     myArray.push(i);
+// }
+// console.log(ourArray)
+
+// console.log(myArray);
+
+// let ourArray = [];
+
+// for (let i = 1; i < 11; i += 2) {
+//     ourArray.push(i);
+// }
+
+// console.log(myArray);
+// console.log(ourArray);
+
+let ourArray = [];
+
+for (let i = 9; i > 0; i -= 2) {
+
+    console.log(ourArray);
+}
+
+
+
+
+
+        
+    
+
