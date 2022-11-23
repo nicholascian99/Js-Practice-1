@@ -14,7 +14,7 @@
 // }
 
 // console.log(timesFive(5));
-// ________________________________________
+// ____________________________________________________________________
 
 // .push and .shift ARRAY METHODS
 // function nextInLine(arr, item) {
@@ -40,7 +40,7 @@
 
 // console.log(testLogicalAnd(6));
 // 
-
+// ________________________________________________________________________
 
 
 // let doesLambiSuck = (scoreboard) => {
@@ -54,7 +54,7 @@
                 // }
                 
                 // console.log(doesLambiSuck(1600))
-                // ______________________________________
+// ________________________________________________________________________
                 
 //Golf Game
 
@@ -81,7 +81,7 @@
 
 
 // console.log(golfScore(9, 1));
-
+______________________________________________________________
 //SWITCH STATEMENTS CAN BE USED INSTEAD OF A CHAIN OF "IF ELSE" STATMENTS   
 // function caseInSwitch(val){
 //     var answer = "";
@@ -110,7 +110,7 @@
 //     console.log(caseInSwitch(6))
 
 
-
+// _________________________________________________________________________
 //whenever the function is called, the number to bet increases or decreases depending on the numbers that were passed into the function. If the number is high, you bet, if low, dont bet.
 // let count = 0;
 
@@ -192,7 +192,7 @@
 // }
 
 // console.log(checkObject("pet"));
- 
+//  ______________________________________________________________
 //ACCESSING NESTED ARRAYS
 
 // let myPokemon = [
@@ -223,7 +223,7 @@
 
 // let opMove = myPokemon[1].moves[2];
 // console.log(opMove)
-
+// ______________________________________________________________
 //ACCESSING NESTED OBJECTS
 
 // let myStorage = {
@@ -256,7 +256,7 @@
 // }
 // console.log(myArray);
 
-
+// ________________________________________________________________
 //   FOR LOOPS (USUALLY BEST PRACTICE)
 
 // let ourArray = [];
@@ -284,12 +284,65 @@
 // console.log(myArray);
 // console.log(ourArray);
 
-let ourArray = [];
+// let ourArray = [];
 
-for (let i = 9; i > 0; i -= 2) {
+// for (let i = 9; i > 0; i -= 2) {
 
-    console.log(ourArray);
+//     console.log(ourArray);
+// }
+// ______________________________________________________________
+// let myArray = [9, 10, 11, 12];
+// let myTotal = 0;
+
+// for (let i = 0; i < array.length; i++) {
+//     ourTotal += ourArray[i];
+    
+// }
+// console.log(ourTotal);
+
+// _________________________________________________________
+// let ourArray = [2, 3, 4, 5, 6];
+// let total = 0;
+
+// for (let i = 0; i < ourArray.length; i++) {
+//     total += ourArray[i];
+// }
+
+// console.log(total)
+// _________________________________________________________
+
+// function multiplyAll(arr) {
+//     var product = 1;
+
+//     for (var i=0; i < arr.length; i++) {
+//         for (var j=0; j < arr[i].length; j++){
+//             product *= arr[i][j];
+//         }
+//     }
+
+//     return product;
+// }
+
+// var product = multiplyAll([[1,2],[3,4],[4,6]]);
+
+// console.log(product);
+
+var myArray = [];
+var i = 10;
+
+  do {
+    myArray.push(i);
+    i++;
+    
 }
+while (i < 5)
+
+console.log(i, myArray);
+
+
+
+
+
 
 
 
