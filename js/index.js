@@ -81,7 +81,7 @@
 
 
 // console.log(golfScore(9, 1));
-______________________________________________________________
+// ______________________________________________________________
 //SWITCH STATEMENTS CAN BE USED INSTEAD OF A CHAIN OF "IF ELSE" STATMENTS   
 // function caseInSwitch(val){
 //     var answer = "";
@@ -327,17 +327,80 @@ ______________________________________________________________
 
 // console.log(product);
 
-var myArray = [];
-var i = 10;
+// var myArray = [];
+// var i = 10;
 
-  do {
-    myArray.push(i);
-    i++;
+//   do {
+//     myArray.push(i);
+//     i++;
     
-}
-while (i < 5)
+// }
+// while (i < 5)
 
-console.log(i, myArray);
+// console.log(i, myArray);
+
+// ________________________________________________________
+// PROFILE LOOKUP
+
+// let contacts = [
+//     {
+//         "firstName": "Shrilanka",
+//         "lastName" : "that bitch",
+//         "number" : "0509896758",
+//         "likes" : ["twerking", "breaking bodies", "making money"]
+//     },
+//     {
+//         "firstName": "Benji",
+//         "lastName": "Wilbur",
+//         "number": "9685746583",
+//         "likes": ["Harry Potter", "brownies", "pokemon"] 
+//     },
+//     {
+//         "firstName": "Kenny",
+//         "lastName": "Brown",
+//         "number": "6867564758",
+//         "likes": ["Cod", "bad bitches", "being tall"]
+//     },
+//     {
+//         "firstName": "Sherry",
+//         "lastName": "Quinn",
+//         "number": "4637586945",
+//         "likes": ["jump rope", "raw chicken", "tiktok"]
+//     }    
+// ];
+
+// function lookupProfile(name, prop){
+//     for (let i = 0; i < contacts.length; i++) {
+//         if (contacts[i].firstName === name) {
+//             return contacts[i][prop] || "No such property";
+//         }
+//     }
+//     return "No such contact";
+// }
+
+// let data = lookupProfile("Shrilanka", "number");
+
+// console.log(data)
+     
+
+// function randomFraction() {
+
+//     return Math.random();
+// }
+
+// console.log(randomFraction());
+
+let randomNumberBetween0and19 = Math.floor(Math.random() * 20);
+
+let randomWholeNum = () => {
+    
+    
+    return Math.floor(Math.random() * 10);
+}
+
+console.log(randomWholeNum());
+
+
 
 
 
